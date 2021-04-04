@@ -14,14 +14,26 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
 /* HEADER */
 
+header {
+  background-color: aqua;
+}
 .page-logo {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 700;
@@ -63,6 +75,8 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
 }
 
@@ -76,6 +90,9 @@ a {
 }
 
 /* FEATURES */
+.features {
+  background-color: blueviolet;
+}
 
 .features-list-title {
   font-weight: 700;
@@ -93,6 +110,9 @@ a {
 }
 
 /* WORKS */
+.works {
+  background-color: rgb(73, 226, 43);
+}
 .works-title,
 .team-title {
   font-weight: 700;
@@ -104,6 +124,10 @@ a {
 }
 
 /* TEAM */
+
+.taem-section {
+  background-color: rgb(43, 61, 226);
+}
 .team-member-name {
   font-weight: 500;
   font-size: 16px;
